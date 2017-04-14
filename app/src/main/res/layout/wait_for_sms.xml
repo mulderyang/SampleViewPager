@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:gravity="center"
+        android:inputType="numberSigned"
+        android:hint="인증번호"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sms_no"
+        android:textSize="30dp"
+        android:layout_marginTop="46dp"
+        android:allowUndo="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneNo"
+        android:text="Phone NO"
+        android:textColor="@color/colorPrimary"
+        android:textSize="28dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/sms_no"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/input_SMS_AuthNo"
+        android:textSize="17sp"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/phoneNo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="확 인"
+        android:id="@+id/button2"
+        android:enabled="false"
+        android:layout_below="@+id/textView3"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_marginTop="25dp"
+        android:onClick="onButton1Clicked"/>
+
+
+</RelativeLayout>

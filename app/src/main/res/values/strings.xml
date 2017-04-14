@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SampleViewPager</string>
+    <string name="title_activity_joinwith_phone_number">JoinwithPhoneNumber</string>
+    <string name="input_phoneNumber_forJoin">비더레이서[BetheRacer] 계정을 생성하시려면
+    휴대폰 번호를 인증해야 합니다. 휴대폰 번호를 입력하신후 \'다음\'버튼을 눌러주세요</string>
+    <string name="input_SMS_AuthNo">SMS로 수신된 인증번호를 입력해주세요.</string>
+</resources>
